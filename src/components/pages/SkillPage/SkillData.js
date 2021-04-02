@@ -13,7 +13,7 @@ export const data1 = {
     titleText: 'Website with React',
     cardTitle: 'This webpages build using React JS framework',
     cardDesc: 'As one of the technology i have studied recently i have developed this website using ReactJS framework. Using compenents to allow reusability, inline if-else that allow fast condition on how the page looks and its behaviours, and the uses of hooks and router made the routing and state control much more easy.',
-    cardLink: '/educations',
+    cardLink: 'https://github.com/Amiezaha/react-portfolio/tree/master',
     sectionImg: '/images/reactjs.png',
     imgAlt: 'Education icons',
     imgStart: '',
