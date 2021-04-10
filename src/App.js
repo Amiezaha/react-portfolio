@@ -7,6 +7,7 @@ import Home from "./components/pages/HomePage/Home";
 import Skill from "./components/pages/SkillPage/Skill";
 import WorkingExperience from "./components/pages/WorkingExperience/WorkingExperience";
 import ScrollToTop from "./components/ScrollToTop";
+import WorkGallery from "./components/pages/WorkGalleryPage/WorkGallery";
 
 function App() {
   window.onbeforeunload = function () {
@@ -26,6 +27,11 @@ function App() {
             path="/working-experiences"
             exact
             component={WorkingExperience}
+          />
+          <Route
+            path="/work-gallery"
+            exact
+            component={WorkGallery}
           />
         </Switch>
         </ScrollToTop>
